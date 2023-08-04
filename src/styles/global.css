@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Lora&family=Plus+Jakarta+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: Plus Jakarta Sans, Arial, sans-serif;
+  background: #D8FCEC;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Lora&family=Plus+Jakarta+Sans&display=swap');
+
+.layout {
+    display: flex;
+    width: 1440px;
+    padding: 160px 104px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.txt {
+    width: 928px;
+    flex-shrink: 0;
+    color: #22272B;
+    text-align: center;
+    font-family: Plus Jakarta Sans, PoliteType;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 50.4px */
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        width: 100%;
+        padding: 80px 52px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .layout {
+        width: 90%;
+        padding: 200px 130px;
+    }
+}
