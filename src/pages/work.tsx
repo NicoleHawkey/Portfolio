@@ -1,4 +1,4 @@
-import WorkSection from "@/components/WorkSection/WorkSection";
+import WorkSection, { BackgroundWorksection } from "@/components/WorkSection/WorkSection";
 import styles from "../styles/work.module.css";
 
 const workItems = [
@@ -23,7 +23,7 @@ const workItems = [
         id: 'connect',
         upperTitle: 'Connect with me',
         title: 'Say hi on LinkedIn',
-        background: "orange",
+        background: "orange" as BackgroundWorksection,
         children : <div className={styles.linkedinimagecontainer}>
         <img src="/linkedin.png" alt="" className={styles.linkedinimage}/>
     </div>

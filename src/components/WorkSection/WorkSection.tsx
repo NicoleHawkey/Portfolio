@@ -1,10 +1,12 @@
 import styles from './WorkSection.module.css'
 
+export type BackgroundWorksection = 'blue' | 'orange';
+
 interface WorkSectionProps {
     upperLink: string;
     upperTitle: string;
     title: string;
-    background?: "blue" | "orange";
+    background?: BackgroundWorksection;
     children?: React.ReactNode;
 }
 
