@@ -2,12 +2,12 @@
 
 .layout {
     display: flex;
-    padding: 120px 104px;
-    padding-bottom: 200px;
+    padding: 8% 7%;
+    padding-bottom: 14%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 47px;
+    gap: 3%;
     background: #FFF;
 }
 
