@@ -7,7 +7,7 @@
     align-items: center;
     gap: 100px;
     background-color: #22272B;
-    width: 100%;
+    padding: 6.5rem 6.5rem;
 }
 
 .h1 {
@@ -33,7 +33,7 @@
 .frame {
     display: flex;
     width: 100%;
-    padding: 0px 7dvw;
+    padding: none;
     justify-content: space-between;
     align-items: flex-start;
 }

@@ -2,7 +2,6 @@
 
 .layout {
     display: flex;
-    width: 1440px;
     padding: 160px 104px;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,6 @@
 
 @media screen and (min-width: 1441px) {
     .layout {
-        width: 90%;
         padding: 200px 130px;
     }
 }

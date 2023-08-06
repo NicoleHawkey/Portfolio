@@ -18,7 +18,7 @@ const AboutMeSection = () => (
         </p>
       </div>
       <div className={styles.contact}>
-        <a href="mailto:nicolehawkey0@gmail.com" className={styles.button}>
+        <a href="mailto:nicolehawkey0@gmail.com">
           <button className={styles.button}>Contact Me</button>
         </a>
         <a
@@ -32,7 +32,7 @@ const AboutMeSection = () => (
       </div>
     </div>
     <div className={styles.frameImage}>
-      <img src="/Frame.png" alt="Frame"></img>
+      <img src="/intro-bg.svg" alt="Frame"></img>
     </div>
   </div>
 );

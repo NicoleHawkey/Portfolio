@@ -2,9 +2,6 @@
 
 .layout {
     display: flex;
-    width: 100vw;
-    max-width: 1440px;
-    height: 400px;
     padding: 120px 104px;
     padding-bottom: 200px;
     flex-direction: column;
@@ -44,7 +41,7 @@
 .img {
     height: 270px;
     width: 360px;
-    box-shadow: 5px 5px 15px -1.5px #22272B;
+    box-shadow: 5px 5px 15px -1.5px rgba(34, 39, 43, 0.2);
     border-radius: 5px;
     object-fit: cover;
 }

@@ -3,8 +3,6 @@
 .layout {
     grid-column: auto;
     display: flex;
-    max-width: 1440px;
-    width: 100%;
     padding: 45px;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,8 +20,9 @@
     box-shadow: 9px 10px rgb(34, 39, 43);
     margin: 20px;
     position: relative;
-    z-index: 2;
-    width: 500px;
+    z-index: 1;
+    width: 52%;
+    min-width: 500px;
 }
 
 .intro {
@@ -48,10 +47,9 @@
 }
 
 .frameImage { 
-    position: relative; 
-    left: -200px;
-    z-index: 1;
-    margin-right: 0;
+    position: absolute; 
+    right: 0;
+    z-index: 0;
 }
 
 .contact {
@@ -61,15 +59,13 @@
 }
 
 .button {
-    display: flex;
     padding: 15px 20px;
     align-items: center;
-    gap: 10px;
     border-radius: 60px;
     background: #22272B;
     color: #FFF;
     font-family: Plus Jakarta Sans;
-    font-size: 15px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

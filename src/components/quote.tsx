@@ -1,4 +1,4 @@
-import styles from "./quote.module.css";
+import styles from "../styles/quote.module.css";
 
 const Quote = () => (
     <div className={styles.layout}>
