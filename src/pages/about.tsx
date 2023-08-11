@@ -11,7 +11,7 @@ const AboutMeSection = () => (
       </div>
       <div className={styles.p}>
         <p>
-          As a Junior Fullstack Developer with a nursing background, I bring
+          As a junior full-stack developer with a nursing background, I bring
           precision and empathy to my role. My experience in healthcare has
           honed my detail-oriented approach to coding and fostered strong
           communication skills.

@@ -1,28 +1,38 @@
 import styles from "../styles/projects.module.css";
 
-const Projects = () => (
+const projectItems = [
+    {
+        title: "Facial Recognition - Front End",
+        link: "https://github.com/NicoleHawkey/face-recognition-brain-front-end",
+        imgSrc: "Frontend.png",
+        altText: "Facial Recognition"
+    },
+    {
+        title: "Facial Recognition - Back End",
+        link: "https://github.com/NicoleHawkey/smart-brain-api-back-end",
+        imgSrc: "backend.png",
+        altText: "Facial Recognition"
+    },
+    {
+        title: "Robofriends",
+        link: "https://github.com/NicoleHawkey/Robofriends",
+        imgSrc: "Robofriends.png",
+        altText: "Robofriends"
+    },
+];
+
+const Projects = () => (    
     <div className={styles.layout}>
         <h1 className={styles.h1}>Project examples</h1>
         <div className={styles.projects}>
-            
-            <div className={styles.project}>
-                <h2 className={styles.h2}>Facial Recognition - Front End</h2>
-                <a href="https://github.com/NicoleHawkey/face-recognition-brain-front-end">
-                    <img src="Frontend.png" alt="Facial Recognition" className={styles.img}/>
-                </a>
-            </div>
-            <div className={styles.project}>
-                <h2 className={styles.h2}>Facial Recognition - Back End</h2>
-                <a href="https://github.com/NicoleHawkey/smart-brain-api-back-end">
-                    <img src="backend.png" alt="Facial Recognition" className={styles.img}/>
-                </a>
-            </div>
-            <div className={styles.project}>
-                <h2 className={styles.h2}>Robofriends</h2>
-                <a href="https://github.com/NicoleHawkey/Robofriends">
-                    <img src="Robofriends.png" alt="Facial Recognition" className={styles.img}/>
-                </a>
-            </div>
+            {projectItems.map((project, index) => (
+                <div key={index} className={styles.projectcard}>
+                    <h2 className={styles.h2}>{project.title}</h2>
+                    <a href={project.link}>
+                    <img src={project.imgSrc} alt={project.altText} className={styles.img}/>
+                    </a>
+                </div>
+            ))}
         </div>
     </div>
 );

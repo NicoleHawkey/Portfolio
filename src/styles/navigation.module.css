@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Lora&family=Plus+Jakarta+Sans&display=swap');
+@font-face {
+  font-family: PoliteType;
+  src: url('/fonts/PoliteType-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .layout {
     display: flex;
@@ -14,7 +20,7 @@
 
 .name {
     color: #22272B;
-    font-family: PoliteType, Plus Jakarta Sans;
+    font-family: PoliteType;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
@@ -59,11 +65,3 @@
     width: 8px;
     height: 4.348px;
 }
-  
-@media (min-width: 768px) {
-    .layout {
-      padding: 1% 2%; /* Decrease padding for larger devices */
-      margin: 0 auto; /* Center the layout horizontally */
-    }
-  }
-  

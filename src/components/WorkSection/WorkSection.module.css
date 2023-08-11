@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Lora&family=Plus+Jakarta+Sans&display=swap');
+@font-face {
+    font-family: PoliteType;
+    src: url('/fonts/PoliteType-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .githubcontainer {
     display: flex;
@@ -46,11 +52,11 @@
 .h1 {
     width: 569px;
     color: var(--taffy, #041514);
-    font-family: PoliteType, Plus Jakarta Sans;
+    font-family: PoliteType;
     font-size: 46px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100%; /* 46px */
+    line-height: 100%;
 }
 
 .blue {
@@ -63,10 +69,16 @@
 
 .blue .btn1 {
     background: linear-gradient(0deg, rgba(188, 195, 255, 0.45) 0%, rgba(188, 195, 255, 0.45) 100%), #FFF;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
 }
 
 .orange .btn1{
     background: linear-gradient(0deg, rgba(255, 216, 170, 0.45) 0%, rgba(255, 216, 170, 0.45) 100%), #FFF;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
 }
 
 .a {
