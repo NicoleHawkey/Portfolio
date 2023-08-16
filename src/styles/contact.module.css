@@ -95,3 +95,24 @@
     font-size: 32px;
     color: #22272B;
 }
+@media screen and (max-width: 768px) {
+.layout {
+    padding: 74px 40px;
+}
+.contact {
+        flex-direction: column;
+}
+.h1 {
+    font-size: 22px;
+}
+.h2 {
+    font-size: 18px;
+}
+.button {
+    font-size: 14px;
+    padding: 12px 18px;
+}
+.icon {
+    font-size: 28px;
+}
+}

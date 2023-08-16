@@ -85,3 +85,36 @@
     font-size: 32px;
     color: #22272B;
 }
+
+@media screen and (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .profile {
+        width: 100%;
+        min-width: auto;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .p {
+        margin: 25px 0;
+    }
+
+    .frameImage {
+        display: none;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

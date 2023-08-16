@@ -16,7 +16,7 @@
 
 .githubcontent {
     display: flex;
-    padding: 45px 0px 0px 45px;
+    padding: 45px 7px 0px 45px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -102,4 +102,42 @@
     width: 70%;
     border-radius: 5px 0px 0px 0px;
     position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .githubcontainer {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .githubcontent {
+        /* padding: 20px 0px 0px 20px; */
+        gap: 5px;
+    }
+
+    .content {
+        gap: 10px;
+    }
+
+    .btn1 {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .h1 {
+        width: 100%;
+    }
+
+    .blue .btn1, .orange .btn1 {
+        font-size: 12px;
+    }
+
+    .github {
+        gap: 5px;
+    }
+
+    .screenwrapper {
+        padding-left: 0;
+        width: 100%;
+    }
 }

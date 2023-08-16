@@ -63,3 +63,43 @@
 .img:hover {
     transform: scale(1.1); 
 }
+
+@media screen and (max-width: 768px) {
+    .layout {
+
+        margin-top: 14%;
+        padding: 5% 7%;
+        padding-bottom: 14%;
+        align-items: flex-start;
+    }
+
+    .projects {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3%;
+    }
+
+    .h1 {
+        font-size: 46px;
+    }
+
+    .projectcard {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .h2 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+
+    .img {
+        height: 270px;
+        width: 330px;
+    }
+
+    .img:hover {
+        transform: scale(1.1);
+    }
+}

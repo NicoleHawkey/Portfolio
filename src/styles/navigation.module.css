@@ -11,6 +11,7 @@
     padding: 2% 4%;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
   
 .colors {
@@ -38,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
   }
 
 .awc {
@@ -47,7 +49,7 @@
     gap: 45px;
     padding: 62px 20px;
 }
-
+/* 
 .flag {
     width: 20px;
     height: 20px;
@@ -64,4 +66,36 @@
 .vector img {
     width: 8px;
     height: 4.348px;
+} */
+
+@media (max-width: 768px) {
+  .layout {
+    display: flex;
+    padding: 5% 12%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .name {
+      flex: 0 0 100%;
+      text-align: left;
+      font-size: 130%;
+  }
+
+  .menu {
+      flex: 0 0 100%;
+      justify-content: flex-end;
+      gap: 2%; 
+  }
+
+  .awc {
+      flex: 0 0 100%;
+      padding: 3% 2%;
+      gap: 2%;
+  }
+
+  .flexContainer {
+      gap: 2%;
+  }
 }
