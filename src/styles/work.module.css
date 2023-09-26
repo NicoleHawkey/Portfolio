@@ -161,10 +161,10 @@
     height: 623px; 
     border-radius: 623px;
     background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(255, 216, 170, 0.25) 0%, rgba(255, 216, 170, 0.00) 100%);
-    color: #FFD8AA, #FFD8AA00;
+color: #FFD8AA, #FFD8AA00;
     position: absolute;
     z-index: 1;
-    left: 600px;
+    left: 300px;
 }
 
 @media screen and (max-width: 768px) {
