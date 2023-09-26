@@ -19,6 +19,30 @@ const projectItems = [
         imgSrc: "Robofriends.png",
         altText: "Robofriends"
     },
+    {
+        title: "CRWN-Clothing",
+        link: "https://github.com/NicoleHawkey/Clothing-Shop-CRWN",
+        imgSrc: "crwn-clothing1.png",
+        altText: "CRWN-Clothing"
+    },
+    {
+        title: "Github Profile Searcher",
+        link: "https://github.com/NicoleHawkey/Github-Profile-Searcher",
+        imgSrc: "githubprofile-searcher.png",
+        altText: "Github Profile Searcher"
+    },
+    {
+        title: "Custom Countdown",
+        link: "https://github.com/NicoleHawkey/custom-countdown",
+        imgSrc: "countdown.png",
+        altText: "Custom Countdown"
+    },
+    {
+        title: "Movie Finder",
+        link: "https://github.com/NicoleHawkey/Movie-Finder",
+        imgSrc: "movie.png",
+        altText: "Movie Finder"
+    },
 ];
 
 const Projects = () => (    

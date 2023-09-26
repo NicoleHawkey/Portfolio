@@ -7,8 +7,8 @@
 }
 
 .layout {
-    padding: 8% 7%;
-    padding-bottom: 14%;
+    padding: 4% 6%;
+    padding-bottom: 8%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -21,7 +21,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    gap: 2%;
+    /* gap: 10%; */
 }
 
 .h1 {
@@ -39,6 +39,7 @@
     justify-content: flex-start; 
     align-items: flex-start;
     gap: 1%;
+    padding-top: 3%;
 }
 
 .h2 {
@@ -53,8 +54,8 @@
 }
 
 .img {
-    height: 270px;
-    width: 360px;
+    height: 285px;
+    width: 477px;
     box-shadow: 5px 5px 15px -1.5px rgba(34, 39, 43, 0.2);
     border-radius: 5px;
     object-fit: cover;
