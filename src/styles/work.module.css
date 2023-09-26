@@ -164,7 +164,7 @@
     color: #FFD8AA, #FFD8AA00;
     position: absolute;
     z-index: 1;
-    left: 300px;
+    left: 600px;
 }
 
 @media screen and (max-width: 768px) {
