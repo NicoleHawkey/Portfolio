@@ -16,8 +16,8 @@ const Index: React.FC = () => {
       <Navigation onToggleLanguage={toggleLanguage} />
       <AboutMeSection />
       <Quote />
-      <Work />
       <Projects />
+      <Work />
       <Contact />
       <Footer />
     </div>
